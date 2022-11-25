@@ -119,6 +119,8 @@ header{
 #deux{
     display: flex;
     justify-content: center;
+    height: 60vh;
+    background-color:  rgba(208, 208, 208, 0.179);
 }
 .texteSection2{
     padding-top: 20px;
@@ -127,4 +129,10 @@ header{
 }
 .texteSection2 svg{
    color:  rgba(128, 128, 128, 0.485);
+}
+
+/* trois */
+
+#trois{
+    height: 20vh;
 }

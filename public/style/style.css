@@ -9,6 +9,7 @@ body{
 .containerBlog{
     display: flex;
     width: 400px;
+
 }
 
 .blogCard{

@@ -17,7 +17,7 @@ body{
     display: flex;
     justify-content: center;
     padding-bottom: 50px;
-    background-color:  rgba(236, 236, 226, 0.772);
+    background-color:  rgba(190, 190, 190, 0.264);
 }
 
 .divCard{
@@ -36,6 +36,7 @@ body{
 
 .btn{
     background-color: rgb(165, 44, 217);
+    border-radius:15%;
     cursor: pointer;
     position: absolute;
     top: 20px;
@@ -71,7 +72,7 @@ body{
 }
 
 .divChicagoImg{
-    width:300px;
+    width:350px;
     height:400px;
 }
 
@@ -94,16 +95,17 @@ body{
 .divBoldPara{
     width: 600px;
     padding-top: 30px;
+    margin: 10px;
 
 }
 
 .pBoldPara{
     text-align: left;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .authorRight{
     text-align: right;
-    padding-right: 100px;
+    padding-right: 50px;
 }

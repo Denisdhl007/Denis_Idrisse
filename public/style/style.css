@@ -8,8 +8,12 @@ body{
 
 .containerBlog{
     display: flex;
-    width: 400px;
+    justify-content: center;
+}
 
+.divCard{
+    width: 200px;
+    margin-left: 10px;
 }
 
 .blogCard{
@@ -17,6 +21,13 @@ body{
     text-align: left;
     text-align: center;
     padding-bottom: 10px;
+    position: relative;
+}
+
+.btn{
+    background-color: rgb(217, 44, 125);
+    cursor: pointer;
+    position: absolute;
 }
 
 .title{
@@ -36,10 +47,6 @@ body{
     padding-right: 20px;
 }
 
-.btn{
-    background-color: rgb(217, 44, 125);
-    cursor: pointer;
-}
 
 .containerSection3{
     display: flex;

@@ -213,5 +213,28 @@ header{
     height: 70vh;   
 }
 
+/* la grande div blanch */
+.contenuQ{
+    display: flex;
+    background-color: white;
+    width: 70%;
+    height: 40vh;
+}
+
+/* la div du texte */
+.contQ{
+    
+    padding: 70px 60px;
+    display: flex;
+}
+/* nb de la div */
+.nb{
+    font-size: 100px;
+    color: rgba(183, 183, 183, 0.485);
+}
+.txtnb{
+    padding-left: 40px;
+    width: 400px;
+}
 
 

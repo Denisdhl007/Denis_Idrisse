@@ -167,15 +167,28 @@ header{
 
 }
 /* trois */
+
+
 .ligneTrois{
-    width: 400px;
+    width: 300px;
     background-color: black;
     height: 1px;
     margin: 1px auto;
 }
-#trois{
-    height: 20vh;
+/* titre d la section */
+.trois center p{
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-size: 40px;
 }
-imgT{
-    display: block!important;
+
+/* card de la div trois */
+
+.card{
+    margin-top:30px;
+    display: flex;
+    justify-content: center;
+}
+.card div{
+    margin-left: 30px;
 }

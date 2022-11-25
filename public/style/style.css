@@ -1,3 +1,137 @@
+body{
+    margin: 0px;
+    margin:0px
+}
+
+.divMyBlogCards{
+    margin-top: 50px;
+    background-color: rgba(190, 190, 190, 0.264);
+    padding-bottom: 10px;
+}
+
+.titleMyBlogCards{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.containerBlog{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    background-color:  rgba(190, 190, 190, 0.264);
+}
+
+.divCard{
+    width: 200px;
+    margin-left: 10px;
+
+}
+
+.blogCard{
+    height: auto;
+    text-align: left;
+    text-align: center;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.btn{
+    background-color: rgb(165, 44, 217);
+    border-radius:15%;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 80px
+}
+
+.title{
+    padding: 15px;
+    text-align: left;
+}
+
+.sousTitreBlog{
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.pBlog{
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.arrowFont{
+    justify-content: right;
+    color: blueviolet;
+}
+
+.containerSection3{
+    display: flex;
+}
+
+.divChicagoImg{
+    width: 350px;
+    height:300px;
+    height: 400px;
+    width: 100%;
+}
+
+.divChicagoImg{
+    width:350px;
+    height:400px;
+}
+
+.imgChicago{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.upStandTxt{
+    background-color: rgb(207, 179, 179);
+    right: -25px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.divBoldPara{
+    padding-right: 300px;
+    padding-left: 100px;
+}
+
+.boldPara{
+    text-align: left;}
+.divUpStandTxt{
+    background-color: blanchedalmond;
+}
+
+.pUpStandTxt{
+    padding-left: 10px;
+    padding-right: 10px;
+    transform: rotate(-90deg);
+}
+
+.divBoldPara{
+    width: 600px;
+    padding-top: 30px;
+    margin: 10px;
+
+}
+
+.pBoldPara{
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.authorRight{
+    text-align: right;
+}
+.authorRight{
+    text-align: right;
+    padding-right: 50px;
+}
 
 body{
     margin: 0;
@@ -292,3 +426,4 @@ position: relative;
     height: 610px;
     margin-left: 100px;
 }
+

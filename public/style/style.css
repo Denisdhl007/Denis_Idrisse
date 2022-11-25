@@ -2,6 +2,10 @@ body{
     margin:0px
 }
 
+.divMyBlogCards{
+    margin-top: 50px;
+}
+
 .titleMyBlogCards{
     text-align: center;
 }
@@ -9,11 +13,12 @@ body{
 .containerBlog{
     display: flex;
     justify-content: center;
-
+    margin-bottom: 50px;
 }
 
 .divCard{
     width: 200px;
+
     margin-left: 10px;
 
 }
@@ -53,6 +58,7 @@ body{
 
 .arrowFont{
     justify-content: right;
+    color: blueviolet;
 }
 
 .containerSection3{
@@ -96,5 +102,5 @@ body{
 
 .authorRight{
     text-align: right;
-    padding-right: 150px;
+    padding-right: 100px;
 }

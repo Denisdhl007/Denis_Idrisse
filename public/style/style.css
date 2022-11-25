@@ -9,11 +9,13 @@ body{
 .containerBlog{
     display: flex;
     justify-content: center;
+
 }
 
 .divCard{
     width: 200px;
     margin-left: 10px;
+
 }
 
 .blogCard{
@@ -28,6 +30,8 @@ body{
     background-color: rgb(217, 44, 125);
     cursor: pointer;
     position: absolute;
+    top: 20px;
+    right: 80px
 }
 
 .title{
@@ -47,6 +51,9 @@ body{
     padding-right: 20px;
 }
 
+.arrowFont{
+    justify-content: right;
+}
 
 .containerSection3{
     display: flex;

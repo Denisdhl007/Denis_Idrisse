@@ -167,7 +167,12 @@ header{
 
 }
 /* trois */
-
+.ligneTrois{
+    width: 400px;
+    background-color: black;
+    height: 1px;
+    margin: 1px auto;
+}
 #trois{
     height: 20vh;
 }

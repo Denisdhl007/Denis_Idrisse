@@ -136,12 +136,25 @@ header{
 /* gallerie du deux */
 
 .gallerie{
+    
     display: flex;
     height: 680px;
     justify-content: center;
     margin-top: -150px;
     padding: 1px 400px;
     
+}
+.img1{
+    position: relative;
+}
+.gallerie svg{
+    top: 40%;
+    left: 45%;
+    color: white;
+    position: absolute;
+    border: solid 1px white;
+    border-radius: 100%;
+    padding: 10px;
 }
 .gallerie div{
     margin: 2px;

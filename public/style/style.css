@@ -2,21 +2,18 @@ body{
     margin:0px
 }
 
-.myBlogCards{
+.titleMyBlogCards{
     text-align: center;
 }
 
-.row{
+.containerBlog{
     display: flex;
-    width: 50%;
-    padding: 1px 200px;
+    width: 400px;
 }
 
-.service-card {
+.blogCard{
     height: auto;
     text-align: left;
-    transition: all .15s ease;
-    cursor: pointer;
     text-align: center;
     padding-bottom: 10px;
 }
@@ -40,6 +37,7 @@ body{
 
 .btn{
     background-color: rgb(217, 44, 125);
+    cursor: pointer;
 }
 
 .containerSection3{
@@ -78,6 +76,7 @@ body{
 .pBoldPara{
     text-align: left;
     padding-left: 100px;
+    padding-right: 100px;
 }
 
 .authorRight{

@@ -1,0 +1,38 @@
+body{
+    margin: 0px;
+}
+
+.containerSection3{
+    display: flex;
+}
+
+.divChicagoImg{
+    width: 350px;
+    height:300px;
+}
+
+.imgChicago{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.upStandTxt{
+    background-color: rgb(207, 179, 179);
+    right: -25px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.divBoldPara{
+    padding-right: 300px;
+    padding-left: 100px;
+}
+
+.boldPara{
+    text-align: left;
+}
+
+.authorRight{
+    text-align: right;
+}

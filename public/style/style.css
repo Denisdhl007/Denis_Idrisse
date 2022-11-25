@@ -1,9 +1,20 @@
+body{
+    margin: 0;
+}
 #fond{
-    background: url(/public/img/pexels-mikhail-nilov-7662473.jpg),linear-gradient(blue,pink);
+    background-image: url(/public/img/pexels-mikhail-nilov-7662473.jpg);
     background-size: 100%;
     height: 100vh;
 }
 
+
+/* HEADEERRR */
+
+header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: solid 1px rgba(204, 204, 204, 0.254);
+}
 
 
 /* NAAVVVV */
@@ -18,9 +29,19 @@
     
     display: flex;
     float: right;
+    align-items: center;
   
 }
 /* l'espacement des div */
 #home div{
     margin-left: 15px;
+}
+
+/* button de la nav */
+#home button{
+    color: white;
+    background-color: palevioletred;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
 }

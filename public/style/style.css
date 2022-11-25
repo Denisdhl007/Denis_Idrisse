@@ -125,9 +125,18 @@ header{
     background-color:  rgba(208, 208, 208, 0.179);
 }
 .texteSection2{
+    display: flex;
+position: relative;
     padding-top: 20px;
     width: 400px;
-   
+   height: 35vh;
+}
+.d{
+    padding-top: 40px;
+}
+.svg2{
+    position: absolute;
+    bottom: 0;
 }
 .texteSection2 svg{
    color:  rgba(128, 128, 128, 0.485);
@@ -218,7 +227,7 @@ header{
     display: flex;
     background-color: white;
     width: 70%;
-    height: 40vh;
+   
 }
 
 /* la div du texte */
@@ -236,5 +245,6 @@ header{
     padding-left: 40px;
     width: 400px;
 }
-
+/*  */
+/* img de la div */
 

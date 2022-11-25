@@ -116,7 +116,8 @@ header{
 
 /* Section2 */
 
-#deux{
+
+.deux{
     display: flex;
     justify-content: center;
     height: 60vh;
@@ -131,8 +132,44 @@ header{
    color:  rgba(128, 128, 128, 0.485);
 }
 
+/* gallerie du deux */
+
+.gallerie{
+    display: flex;
+    height: 680px;
+    justify-content: center;
+    margin-top: -150px;
+    padding: 1px 400px;
+    
+}
+.gallerie div{
+    margin: 2px;
+}
+.ligneGall{
+    
+    width: 1px;
+    height: 100px;
+    background-color: black;
+    
+}
+.textGall{
+    background-color: rgb(250, 205, 205);
+    width:200px;
+    padding: 30px;
+    height: 368px;
+    position: relative;
+    padding-top: 200px;
+}
+.textGall p{
+    position: absolute;
+    bottom: 10px;
+
+}
 /* trois */
 
 #trois{
     height: 20vh;
+}
+imgT{
+    display: block!important;
 }

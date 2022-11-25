@@ -1,0 +1,86 @@
+body{
+    margin:0px
+}
+
+.myBlogCards{
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    width: 50%;
+    padding: 1px 200px;
+}
+
+.service-card {
+    height: auto;
+    text-align: left;
+    transition: all .15s ease;
+    cursor: pointer;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.title{
+    padding: 15px;
+    text-align: left;
+}
+
+.sousTitreBlog{
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.pBlog{
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btn{
+    background-color: rgb(217, 44, 125);
+}
+
+.containerSection3{
+    display: flex;
+    height: 400px;
+    width: 100%;
+}
+
+.divChicagoImg{
+    width:300px;
+    height:400px;
+}
+
+.imgChicago{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.divUpStandTxt{
+    background-color: blanchedalmond;
+    transform: rotate(270);
+}
+
+.pUpStandTxt{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.divBoldPara{
+    width: 600px;
+    padding-top: 30px;
+
+}
+
+.pBoldPara{
+    text-align: left;
+    padding-left: 100px;
+}
+
+.authorRight{
+    text-align: right;
+    padding-right: 150px;
+}

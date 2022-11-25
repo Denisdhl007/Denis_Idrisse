@@ -3,6 +3,7 @@ body{
 }
 #fond{
     background-image: url(/public/img/pexels-mikhail-nilov-7662473.jpg);
+    filter:blur(pink)
     background-position-y: 15%;
     background-size: 100%;
     height: 95vh;
